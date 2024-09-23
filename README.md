@@ -3,7 +3,7 @@
 ***
 Code for the paper: [CTF-SSCL: CNN-Transformer for Few-shot Hyperspectral Image Classification Assisted by Semisupervised Contrastive Learning](https://ieeexplore.ieee.org/document/10684809).
 
-We have successfully tested it on Ubuntu 18.04 with PyTorch 1.1.0. Below is the overall architecture of the proposed method. 
+We have successfully tested it on Ubuntu 18.04 with PyTorch 2.0.1. Below is the overall architecture of the proposed method. 
 
 <div align=center><p float="center">
 <img src="/Overall.png" height="400" width="800"/>
