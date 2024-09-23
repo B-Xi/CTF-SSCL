@@ -6,10 +6,12 @@ Code for the paper: [CTF-SSCL: CNN-Transformer for Few-shot Hyperspectral Image 
 We have successfully tested it on Ubuntu 18.04 with PyTorch 1.1.0. Below is the overall architecture of the proposed method. 
 
 <div align=center><p float="center">
-<img src="/Overall.png" height="300" width="200"/>
+<img src="/Overall.png" height="300" width="800"/>
 </p></div>
 <div align=center>Fig. 2: The overall architecture of the proposed method.</div>  
-## Abstract
+
+## Abstract  
+
 Few-shot learning (FSL) has rapidly advanced in the hyperspectral image (HSI) classification, potentially reducing the need for laborious and expensive labeled data collection. Due to the limited receptive field, the convolutional neural network (CNN) struggles to capture long-range dependencies for extracting global features. Additionally, the transformer focuses on global correlation while overlooking the effective representation of local spatial and spectral features. Moreover, contrastive learning has emerged as a powerful technique for improving consistency across different augmented views of samples of the same category.
 To this end, we devise a novel CNN-Transformer network for few-shot HSI classification with semisupervised contrastive learning (CTF-SSCL) to boost the classification performance. Specifically, the cascaded CNN-Transformer incorporates a lightweight spatial-spectral interactive convolution module (LSSICM) and a multi-scale transformer (MSFormer) to exploit local features from submaps and global information from the entire patch. Subsequently, the semisupervised contrastive loss, comprising unsupervised and supervised components, serves as an auxiliary to optimize the model with the classification loss. Wherein, recognizing the unified spectral-spatial information in HSI, we propose a spectral feature shift strategy (SFSS) to create sample pairs for the unsupervised contrastive learning, utilizing unsupervised contrastive loss among groups of samples with identical labels. Extensive experiments on four standard benchmarks demonstrate the effectiveness of the proposed CTF-SSCL with varying amounts of labeled samples.
 
