@@ -1,12 +1,12 @@
 ## CTF-SSCL: CNN-Transformer for Few-shot Hyperspectral Image Classification Assisted by Semisupervised Contrastive Learning, TGRS, 2024.
-==
 [Bobo Xi](https://scholar.google.com/citations?user=O4O-s4AAAAAJ&hl=zh-CN), [Yun Zhang](https://ieeexplore.ieee.org/author/37087032130), [Jiaojiao Li](https://scholar.google.com/citations?user=Ccu3-acAAAAJ&hl=zh-CN&oi=sra), [Yunsong Li](https://dblp.uni-trier.de/pid/87/5840.html),  [Zan Li](https://scholar.google.com/citations?user=FL3Mj4MAAAAJ&hl=zh-CN) and [Jocelyn Chanussot](https://jocelyn-chanussot.net/).
 ***
 Code for the paper: [CTF-SSCL: CNN-Transformer for Few-shot Hyperspectral Image Classification Assisted by Semisupervised Contrastive Learning](https://ieeexplore.ieee.org/document/10684809).
+
 We have successfully tested it on Ubuntu 18.04 with PyTorch 1.1.0. Below is the overall architecture of the proposed method. 
 
 <div align=center><p float="center">
-<img src="/Overall.png" height="300" width="800"/>
+<img src="/Overall.png" height="400" width="800"/>
 </p></div>
 <div align=center>Fig. 2: The overall architecture of the proposed method.</div>  
 
@@ -20,13 +20,13 @@ To this end, we devise a novel CNN-Transformer network for few-shot HSI classifi
 2. Run the 'CTF-SSCL-UP-knn.py' to reproduce the CTF-SSCL results on Pavia University data set.
 
 ## References
---
+
 If you find this code helpful, please kindly cite:
 
 [1] B. Xi, Y. Zhang, J. Li, Y. Li, Z. Li and J. Chanussot, "CTF-SSCL: CNN-Transformer for Few-shot Hyperspectral Image Classification Assisted by Semisupervised Contrastive Learning," in IEEE Transactions on Geoscience and Remote Sensing, doi: 10.1109/TGRS.2024.3465225.
 
-Citation Details
---
+## Citation Details
+
 BibTeX entry:
 ```
 @ARTICLE{Xi_2024TGRS_CTF-SSCL,
