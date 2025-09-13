@@ -8,7 +8,7 @@ We have successfully tested it on Ubuntu 18.04 with PyTorch 2.0.1. Below is the 
 <div align=center><p float="center">
 <img src="/Overall.png" height="400" width="800"/>
 </p></div>
-<div align=center>Fig. 2: The overall architecture of the proposed method.</div>  
+<div align=center>Fig. 1: The overall architecture of the proposed method.</div>  
 
 ## Abstract  
 
